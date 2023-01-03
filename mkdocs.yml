@@ -1,3 +1,12 @@
 site_name: Tutoriais Fab Lab Facens
 theme:
   name: material
+  language: pt-BR
+  features:
+    - navigation.sections
+extra:
+  analytics:
+    provider: google
+    property: G-CP3R40ESW9
+plugins:
+  - search
