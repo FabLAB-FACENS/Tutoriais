@@ -10,3 +10,6 @@ extra:
     property: G-CP3R40ESW9
 plugins:
   - search
+markdown_extensions:
+  - attr_list
+  - md_in_html
