@@ -2,46 +2,46 @@
 title: Como contribuir
 ---
 
-# Tutorial title
-- Original tutorial by: John Doe
-- Your lab name: Moon Lab
-- License: CC-SA-BY
-- Last Review Date: 01/12/2016
-- Last Modified by: Agent Smith
+# Como contribuir
+- Tutorial feito por: Gustavo Abreu
+- Local: Fab Lab Facens
+- Licença: [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
+- Última atualização: 16/01/2023
+- Última atualização por: Gustavo Abreu
 
 
-## Summary
-Short description of the tutorial itself and a representative image of the tutorial.
+## Sumário
+Neste tutorial vamos mostrar quais as maneiras de contribuir com a nossa base de conhecimento de código aberto.
+Visando facilitar a colaboração por funcionários ou até mesmo outros Fab Labs, seguimos o padrão internacional do Fab Academy para a nossa documentação ([repositório Fab Academy](https://gitlab.fabcloud.org/pub/tutorials) | [site](http://pub.fabcloud.io/tutorials/)).
 
-## Step 1. Description of the step
-Text explaining what to do.
+Nossos os tutoriais são escritos em markdown e disponibilizados em um repositório do Fab Lab Facens no [Github](https://github.com/FabLAB-FACENS/tutoriais).
 
-## Step 2. Description of the step
-Text explaining what to do.
+Todo o conteúdo inserido no repositório será automaticamente disponibilizado neste site, através do [MkDocs](https://www.mkdocs.org/) e [GitHub Pages ](https://pages.github.com/)
 
-## Problems faced and solutions
+## Estrutura dos arquivos
 
-- First Problem description
+Todas as pastas de tutoriais seguem a seguinte estrutura:
 
-  > Solution found
+```
+├── como_preparar_imagens.md
+├── imagens
+│   └── como_preparar_imagens
+│       ├── 800x500.jpg
+│       └── comparação.jpeg
+```
 
-- Second Problem description
+Portanto, crie sempre uma pasta com o título do seu tutorial com as letras minúsculas e separados por underline.
 
-  > Solution found
+Para o nome, tente mantê-lo sempre simples, sem espaços e facilmente identificável. Isso vai facilitar sua vida quando precisar apontar a imagem dentro do tutorial.
 
-## Machines and software used and settings
+## Como preparar imagens
 
-  * Machine used
-  * Spindle Speed
-  * Feed Rate
-  * Power
+Para esse tipo de documentação, as dimensões e peso das imagens são muito importantes. Fizemos um tutorial mostrando as melhores práticas. Caso ainda não tenha visto, [clique aqui](/Contribuição/como_preparar_imagens/).
 
-## Links for other sources / useful information
-  - [Link 1]()
-  - [Link 2]()
+## Como escrever em markdown
 
-## Original Design files
-* [CAD file]()
-* [Electronics Schematic]()
-* [Electronics board]()
-* [Code]()
+Caso não tenha familiaridade com markdown, não se preocupe. Além de ser simples, fizemos um tutorial explicando as principais formatações. [Clique aqui](/Contribuição/escrever_md/).
+
+## Opção 1 - Interface gráfica
+## Opção 2 - Linha de comando
+## Opção 3 - Pull-request

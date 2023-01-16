@@ -8,6 +8,6 @@ hide:
 
 ## Aqui você encontra todos os tutoriais para o uso do Fab Lab Facens.
 
-![Fab Lab Facens](images\fablabfacens.jpg)
+![Fab Lab Facens](imagens\fablabfacens.jpg)
 
 ### Caso queira agendar um horário, acesse nosso sistema [Fab Manager](https://fabmanager.facens.br)
